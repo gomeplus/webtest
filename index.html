@@ -4,9 +4,7 @@
   <script>
     window.onload = function() {
       alert("닫습니다");
-      window.open("about:blank","_self").close();
-      self.opener = self;
-      window.close();
+      location.href = “kakaotalk://inappbrowser/close”;
     }
   </script>
 </body>
